@@ -1,15 +1,20 @@
+
+
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
-using HairSalon.Models;
-using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using System.Collections.Generic;
+using HairSalon.Models;
+
 
 namespace HairSalon.Controllers
 {
-  public class CuisinesController : Controller
+  public class StylistsController : Controller
   {
     private readonly HairSalonContext _db;
 
-    public CuisinesController(HairSalonContext db)
+    public StylistsController(HairSalonContext db)
     {
       _db = db;
     }
