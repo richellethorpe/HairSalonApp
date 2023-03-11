@@ -6,10 +6,12 @@
 
 ## Technologies Used
 
-- _C#_
-- _.NET 6_
-- _ASP.NET Core_
-- _Markdown_
+- C#
+- CSHTML
+- .NET 6
+- ASP.NET Core
+- Markdown
+- Entity Framework Core
 
 ## Description
 
