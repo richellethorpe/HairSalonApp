@@ -22,15 +22,15 @@
 **DATABASE**
 - Install and configure MySQL using these [instructions](https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-and-configuring-mysql).
 - Install [MySQL Workbench](https://www.mysql.com/products/workbench/) on your computer if it isn't already.
--Open MySQL Workbench and click on "MySQL Connections"
--Click on management, select Data Import/Restore. Under import options, select "Import from Self-Contained File" and select the path richelle_thorpe.sql. Name the Default Target Schema:richelle_thorpe. Navidgate to the Select Database Objects to Import section and select "Dump Structure Only"
+- Open MySQL Workbench and click on "MySQL Connections"
+- Click on management, select Data Import/Restore. Under import options, select "Import from Self-Contained File" and select the path richelle_thorpe.sql. Name the Default Target Schema:richelle_thorpe. Navidgate to the Select Database Objects to Import section and select "Dump Structure Only"
 
 **REPOSITORY**
 - Clone this repository.
 - Within the production directory "HairSalon", create a new file called appsettings.json.
 - Within appsettings.json, put in the following code, replacing the database name with your database naming convention, uid and pwd values with your own username and password for MySQL. 
 
-{
+>{
   "ConnectionStrings": {
       "DefaultConnection": "Server=localhost;Port=3306;database=[database_name];uid=[id_here];pwd=[your_password];"
   }
