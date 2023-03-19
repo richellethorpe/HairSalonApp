@@ -11,6 +11,9 @@
 
 <hr />
 <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
+<h4>@Html.DisplayNameFor(model => model.Address): @Html.DisplayFor(model => model.Address)</h4>
+<h4>@Html.DisplayNameFor(model => model.Phone): @Html.DisplayFor(model => model.Phone)</h4>
+<h4>@Html.DisplayNameFor(model => model.Specialty): @Html.DisplayFor(model => model.Specialty)</h4>
 
 @if (Model.Clients.Count == 0)
 {
@@ -26,6 +29,5 @@ else
     }
   </ul>
 }
-<p>@Html.ActionLink("Edit Stylist", "Edit", new { id = Model.StylistId})</p>
 <p>@Html.ActionLink("Delete Stylist", "Delete", new { id = Model.StylistId })</p>
 <p>@Html.ActionLink("Back to list", "Index")</p>
