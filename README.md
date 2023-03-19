@@ -22,7 +22,7 @@
 1. Clone this repo and create a SQL database for Stylists and Clients.
 2. Open your shell (e.g., Terminal or GitBash) and navigate to this project's production directory called "HairSalon". 
 3. Within the production directory "HairSalon", create a new file called appsettings.json.
-4 .Within appsettings.json, put in the following code, replacing the database name with your database naming convention, uid and pwd values with your own username and password for MySQL. 
+4. Within appsettings.json, put in the following code, replacing the database name with your database naming convention, uid and pwd values with your own username and password for MySQL. 
 
 {
   "ConnectionStrings": {
