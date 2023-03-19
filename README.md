@@ -20,7 +20,7 @@
 ## Setup/Installation Requirements
 
 **DATABASE**
-- Install and configure MySQL using these [instructions] (https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-and-configuring-mysql).
+- Install and configure MySQL using these [instructions](https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-and-configuring-mysql).
 - Install [MySQL Workbench](https://www.mysql.com/products/workbench/) on your computer if it isn't already.
 -Open MySQL Workbench and click on "MySQL Connections"
 -Click on management, select Data Import/Restore. Under import options, select "Import from Self-Contained File" and select the path richelle_thorpe.sql. Name the Default Target Schema:richelle_thorpe. Navidgate to the Select Database Objects to Import section and select "Dump Structure Only"
